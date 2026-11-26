@@ -1,0 +1,99 @@
+<!-- #region head -->
+<!doctype html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Landing Page</title>
+<!--#region fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+<!--#endregion fonts-->
+    <script
+      src="src/scripts/main.js"
+      defer
+    ></script>
+    <link rel="stylesheet" crossorigin href="/layout_landing-page/assets/index-DVrpmeaN.css">
+  </head>
+  <!-- #endregion -->
+  <body class="page__body">
+      <header class="header">
+      <a href="#menu" class="header__top">
+        <img
+          class="header__top-image"
+          src="/layout_landing-page/assets/Header-lUdRXkbQ.png"
+          alt="nothing, open menu"
+        />
+      </a>
+
+      <div class="header__bottom">
+        <h1>Bring joy back to the everyday</h1>
+      </div>
+    </header>
+
+    <aside class="page__menu menu" id="menu">
+      <a href="#" class="menu__top">
+        <img
+          class="menu__top-image"
+          src="data:image/png;base64,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"
+          alt="nothing, close menu"
+        />
+      </a>
+
+      <div class="menu__content">
+        <nav class="nav menu__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#products">Products</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#store">Store</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#login">Login</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#cart">Cart(0)</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="tel:+12345555555" class="menu__phone-number">
+          +1 234 5555-55-55
+        </a>
+        <a href="#" class="menu__call-to-order">CALL TO ORDER</a>
+      </div>
+    </aside>
+
+  <main class="main">
+    <section class="products" id="products">
+      <h2>Products</h2>
+    </section>
+
+    <section class="store" id="store">
+      <h2>Store</h2>
+    </section>
+
+    <section class="login" id="login">
+      <h2>Login</h2>
+    </section>
+
+    <section class="cart" id="cart">
+      <h2>Cart</h2>
+    </section>
+  </main>
+
+
+  <footer></footer>
+  </body>
+</html>
